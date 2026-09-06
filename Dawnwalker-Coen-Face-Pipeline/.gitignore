@@ -1,0 +1,36 @@
+# Never commit game/mod binaries or private keys
+*.pak
+*.ucas
+*.utoc
+*.uasset
+*.uexp
+*.ubulk
+*.uptnl
+*.usmap
+*.dna
+*.uemodel
+*.psk
+*.pskx
+*.fbx
+*.blend
+*.blend1
+*.abc
+*.mhpkg
+
+# Local/private configuration
+manifest.local.json
+local_config.cmd
+private_local/
+**/private_local/
+*Aes*
+*AES*
+
+# Generated geometry data/reports
+*_positions.csv
+*.npy
+patch_report.json
+build/
+out/
+temp/
+__pycache__/
+*.pyc
