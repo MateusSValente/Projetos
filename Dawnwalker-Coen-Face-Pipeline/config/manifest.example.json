@@ -1,0 +1,19 @@
+{
+  "vertex_count": 30413,
+  "base_sha256": "FILL_WITH_SHA256_OF_THE_EXACT_VANILLA_UEXP",
+  "buffer": {
+    "byte_offset": 0,
+    "stride": 12,
+    "position_offset": 0,
+    "format": "float32x3_le"
+  },
+  "fit": {
+    "max_rmse": 0.0001,
+    "max_abs_error": 0.001
+  },
+  "edit": {
+    "blender_unchanged_epsilon": 1e-09,
+    "max_changed_vertices": 5000,
+    "max_game_delta": 5.0
+  }
+}
